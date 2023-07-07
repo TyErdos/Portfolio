@@ -1,0 +1,74 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background:
+    /* Linear gradiant created using the "easing-gradiants" tool from larsenwork.com */
+        linear-gradient(
+          180deg,
+          hsl(0, 0%, 0%) 0%,
+          hsl(0, 0%, 1.56%) 18.2%,
+          hsl(0, 0%, 2.75%) 34%,
+          hsl(0, 0%, 3.91%) 47.6%,
+          hsl(0, 0%, 5.05%) 59.3%,
+          hsl(0, 0%, 6.16%) 69%,
+          hsl(0, 0%, 7.25%) 77.1%,
+          hsl(0, 0%, 8.31%) 83.6%,
+          hsl(0, 0%, 9.35%) 88.8%,
+          hsl(0, 0%, 10.38%) 92.7%,
+          hsl(0, 0%, 11.37%) 95.6%,
+          hsl(0, 0%, 12.35%) 97.6%,
+          hsl(0, 0%, 13.3%) 98.9%,
+          hsl(0, 0%, 14.22%) 99.6%,
+          hsl(0, 0%, 15.12%) 99.9%,
+          hsl(0, 0%, 16%) 100%
+        ) fixed;
+      };
+
+div{
+    position: relative;
+    height: 100%;
+}
+
+.titleText{
+    text-align: end;
+    position: relative;
+    top: -55rem;
+    right: 5rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.4rem;
+    padding-top: 0.2em;
+    padding-right: 2rem;
+    color: #fffcf2
+}
+
+.mainButton{
+    position: relative;
+    left: 55rem;
+    bottom: 8rem;
+}
+
+/* media queries */
+@media (min-width: 375px) and (max-width: 430px){
+    .titleText
+    {
+        top: 1rem;
+        margin-left: 15%;
+        margin-right: 23%;
+        margin-top: 3%;
+        right: -110px;
+        font-size: 1.8rem;
+        text-align: end;
+    }
+     img
+    {
+        max-width: 100%;
+        height: 24rem;
+        left: -50px;
+        position: absolute;
+        
+        
+    }
+    
+}

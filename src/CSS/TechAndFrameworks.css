@@ -1,0 +1,604 @@
+/* HEADERS AND CONTAINERS */
+.techFrameworksHeading
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.techFrameworksSubheading
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.containerOne
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 8rem;
+    
+}
+.containerTwo
+{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 8rem;
+}
+.containerThree
+{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 8rem;
+}
+.containerFour
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    align-content: space-around;
+    margin-top: 8rem;
+}
+
+
+/* IMAGE STYLING */
+
+/* HTML */
+.techPageHTMLImg
+{
+    width: 200px;
+    height: 200px;
+}
+/* Hover over image text, HTML */
+.techPageHTMLImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleHTML {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-left: -2.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  
+  .techPageHTML:hover .techPageHTMLImg {
+    opacity: 0.3;
+  }
+  
+  .techPageHTML:hover .middleHTML {
+    opacity: 1;
+  }
+  
+  .techPageHTMLText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+/* CSS */
+.techPageCSSImg
+{
+    width: 200px;
+    height: 200px;
+}
+/* Hover over image text, CSS */
+.techPageCSSImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleCSS {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-left: -2.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  
+  .techPageCSS:hover .techPageCSSImg {
+    opacity: 0.3;
+  }
+  
+  .techPageCSS:hover .middleCSS {
+    opacity: 1;
+  }
+  
+  .techPageCSSText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+/*  JS */
+.techPageJSImg
+{
+    width: 200px;
+    height: 200px;
+}
+/* Hover over image text, JS */
+.techPageJSImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleJS {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-left: -3.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  
+  .techPageJS:hover .techPageJSImg {
+    opacity: 0.3;
+  }
+  
+  .techPageJS:hover .middleJS{
+    opacity: 1;
+  }
+  
+  .techPageJSText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+/* Node */
+.techPageNodeImg
+{
+    width: 200px;
+    height: 200px;
+}
+/* Hover over image text, Node */
+.techPageNodeImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleNode {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-left: -3.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+  }
+  
+  .techPageNode:hover .techPageNodeImg {
+    opacity: 0.3;
+  }
+  
+  .techPageNode:hover .middleNode{
+    opacity: 1;
+  }
+  
+  .techPageNodeText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+  /*  React */
+  .techPageReactImg
+  {
+      width: 200px;
+      height: 200px;
+  }
+  /* Hover over image text, React */
+.techPageReactImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleReact {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-top: 0.4rem;
+    margin-left: -2.5rem;
+    text-align: center;
+  }
+  
+  .techPageReact:hover .techPageReactImg {
+    opacity: 0.3;
+  }
+  
+  .techPageReact:hover .middleReact{
+    opacity: 1;
+  }
+  
+  .techPageReactText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+  /* TypeScript */
+  .techPageTSImg
+  {
+        width: 200px;
+        height: 200px;
+  }
+  /* Hover over image text, TS */
+  .techPageTSImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleTS {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-top: 0.4rem;
+    margin-left: -3.5rem;
+    text-align: center;
+  }
+  
+  .techPageTS:hover .techPageTSImg {
+    opacity: 0.3;
+  }
+  
+  .techPageTS:hover .middleTS{
+    opacity: 1;
+  }
+  
+  .techPageTSText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+  /* Nodemon */
+  .techPageNodemonImg
+  {
+    width: 200px;
+    height: 210px;
+  }
+  /* Hover over image text, Nodemon */
+  .techPageNodemonImg {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middleNodemon {
+    display: flex;
+    transition: .5s ease;
+    opacity: 0;
+    margin-top: 0.4rem;
+    margin-left: -3.5rem;
+    text-align: center;
+  }
+  
+  .techPageNodemon:hover .techPageNodemonImg {
+    opacity: 0.3;
+  }
+  
+  .techPageNodemon:hover .middleNodemon{
+    opacity: 1;
+  }
+  
+  .techPageNodemonText {
+    background-color: #B8B8B8;
+    color: #040404;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+
+   /* BCrypt */
+   .techPageBCryptImg
+   {
+     width: 200px;
+     height: 200px;
+   }
+   /* Hover over image text, BCrypt */
+   .techPageBCryptImg {
+     opacity: 1;
+     transition: .5s ease;
+     backface-visibility: hidden;
+   }
+   
+   .middleBCrypt {
+     display: flex;
+     transition: .5s ease;
+     opacity: 0;
+     margin-top: 0.4rem;
+     margin-left: -3.5rem;
+     text-align: center;
+   }
+   
+   .techPageBCrypt:hover .techPageBCryptImg {
+     opacity: 0.3;
+   }
+   
+   .techPageBCrypt:hover .middleBCrypt{
+     opacity: 1;
+   }
+   
+   .techPageBCryptText {
+     background-color: #B8B8B8;
+     color: #040404;
+     font-size: 16px;
+     padding: 16px 32px;
+   }
+
+
+
+    /* MongoDB */
+    .techPageMongoDBImg
+    {
+      width: 350px;
+      height: 200px;
+    }
+    /* Hover over image text, MongoDB */
+    .techPageMongoDBImg {
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middleMongoDB {
+      display: flex;
+      transition: .5s ease;
+      opacity: 0;
+      margin-top: 0.4rem;
+      margin-left: 0.8rem;
+      text-align: center;
+    }
+    
+    .techPageMongoDB:hover .techPageMongoDBImg {
+      opacity: 0.3;
+    }
+    
+    .techPageMongoDB:hover .middleMongoDB{
+      opacity: 1;
+    }
+    
+    .techPageMongoDBText {
+      background-color: #B8B8B8;
+      color: #040404;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+
+
+
+
+     /* Express */
+     .techPageExpressImg
+     {
+       width: 350px;
+       height: 200px;
+     }
+     /* Hover over image text, Express */
+     .techPageExpressImg {
+       opacity: 1;
+       transition: .5s ease;
+       backface-visibility: hidden;
+     }
+     
+     .middleExpress {
+       display: flex;
+       transition: .5s ease;
+       opacity: 0;
+       margin-top: 0.4rem;
+       margin-left: 1.5rem;
+       text-align: center;
+     }
+     
+     .techPageExpress:hover .techPageExpressImg {
+       opacity: 0.3;
+     }
+     
+     .techPageExpress:hover .middleExpress{
+       opacity: 1;
+     }
+     
+     .techPageExpressText {
+       background-color: #B8B8B8;
+       color: #040404;
+       font-size: 16px;
+       padding: 16px 32px;
+     }
+
+
+
+      /* EJS */
+      .techPageEJSImg
+      {
+        width: 370px;
+        height: 210px;
+      }
+      /* Hover over image text, EJS */
+      .techPageEJSImg {
+        opacity: 1;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middleEJS {
+        display: flex;
+        transition: .5s ease;
+        opacity: 0;
+        margin-top: 0.4rem;
+        margin-left: 3rem;
+        text-align: center;
+      }
+      
+      .techPageEJS:hover .techPageEJSImg {
+        opacity: 0.3;
+      }
+      
+      .techPageEJS:hover .middleEJS{
+        opacity: 1;
+      }
+      
+      .techPageEJSText {
+        background-color: #B8B8B8;
+        color: #040404;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+
+
+       /* Axios */
+       .techPageAxiosImg
+       {
+         width: 300px;
+         height: 210px;
+       }
+       /* Hover over image text, Axios */
+       .techPageAxiosImg {
+         opacity: 1;
+         transition: .5s ease;
+         backface-visibility: hidden;
+       }
+       
+       .middleAxios {
+         display: flex;
+         transition: .5s ease;
+         opacity: 0;
+         margin-top: 0.4rem;
+         margin-left: 0.3rem;
+         text-align: center;
+       }
+       
+       .techPageAxios:hover .techPageAxiosImg {
+         opacity: 0.3;
+       }
+       
+       .techPageAxios:hover .middleAxios{
+         opacity: 1;
+       }
+       
+       .techPageAxiosText {
+         background-color: #B8B8B8;
+         color: #040404;
+         font-size: 16px;
+         padding: 16px 32px;
+       }
+
+
+        /* Mongoose */
+        .techPageMongooseImg
+        {
+          width: 550px;
+          height: 210px;
+        }
+        /* Hover over image text, Mongoose */
+        .techPageMongooseImg {
+          opacity: 1;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+        
+        .middleMongoose {
+          display: flex;
+          transition: .5s ease;
+          opacity: 0;
+          margin-top: 0.4rem;
+          margin-left: 7.5rem;
+          text-align: center;
+        }
+        
+        .techPageMongoose:hover .techPageMongooseImg {
+          opacity: 0.3;
+        }
+        
+        .techPageMongoose:hover .middleMongoose{
+          opacity: 1;
+        }
+        
+        .techPageMongooseText {
+          background-color: #B8B8B8;
+          color: #040404;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+
+
+
+
+        /* HR STYLING */
+
+        hr {
+          border: 0;
+          margin: 1.35em auto;
+          max-width: 100%;
+          background-position: 50%;
+          box-sizing: border-box;
+        }
+
+        hr#techPageHR {
+          height: 10px;
+          width: 86%;
+          background-image: radial-gradient(
+            farthest-side at 50% -50%,
+            hsla(0, 0%, 80%,0.5),
+            rgb(26, 25, 25));
+          position: relative; 
+        }
+        
+        hr#techPageHR::before {
+          height: 1px;
+          position: absolute;
+          top: -1px;
+          left: 0;
+          right: 0;
+          background-image: linear-gradient(
+            90deg,
+            rgb(0, 0, 0),
+            hsla(0, 0%, 80%, 0.75) 50%,
+            rgb(8, 8, 8));
+        }

@@ -1,0 +1,223 @@
+section.flex-container{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+}
+
+p
+{
+    color: #fffcf2;
+    font-size: 22px;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    color: #fffcf2;
+    margin-top: 2%;
+    
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5rem;
+    color: #fffcf2;
+    margin-top: 4%;
+}
+
+h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    color: #fffcf2;
+    /* margin-top: 1%; */
+}
+
+#educationH1
+{
+    position: relative;
+    left: 4rem;
+    width: 90%;
+
+}
+
+.firstP#education1P
+{
+    position: relative;
+    float: left;
+    padding-right: 85rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.secondDiv>h3
+{
+    position: relative;
+    float: right;
+    top: 10rem;
+    margin-right: 2.5rem;
+    left: 44rem;
+    /* text-decoration: underline; */
+}
+.secondP#education2P
+{
+    position: relative;
+    float: right;
+    padding-left: 75rem; 
+    margin: 2rem;
+    text-align: center;
+    bottom: 15rem;
+    
+}
+
+.otherEdH2
+{
+    position: relative;
+    float: left;
+    right: 66rem;
+}
+.thirdP#education3P
+{
+    position: relative;
+    float: left;
+    padding-right: 84rem;
+    text-align: center;
+    bottom: 25rem;
+    margin: 27px;
+    
+}
+.thirdP#selfTeaching3P
+{
+    position: relative;
+    float: right;
+    padding-left: 80rem;
+    text-align: center;
+    bottom: 8rem;
+    margin: 27px;
+    right: 5rem;
+    overflow: hidden;
+    
+}
+
+.cedidInfo{
+    text-decoration:underline;
+    position: relative;
+    float: left;
+    text-align: center;
+    /* top: rem; */
+    padding-right: 85rem;
+}
+
+button.validationLink{
+    position: relative;
+    float:left;
+    left: 8rem;
+}
+
+button.udemyLink
+{
+    position: relative;
+    float:left;
+    left: 10rem;
+    bottom: 25rem;
+    
+}
+
+.validationLink, .udemyLink{
+    margin-bottom: 1%;
+    left: 2rem;
+}
+
+img.vegClubLogo
+{
+
+    max-width: 100%;
+    position: relative;
+    float: left;
+    bottom: 30rem;
+    left: 95rem;
+}
+
+img.compSciBehrend
+{
+    float: right;
+    position: relative;
+    right: 3rem;
+    bottom: 40rem;
+}
+
+img.behrendLogo{
+    position: relative;
+    float: left;
+    height: 30%;
+    width: 25%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    left: 2rem;
+}
+
+img.junkerCenter
+{
+    position: relative;
+    float: left;
+    bottom: 42rem;
+    right: 6rem;
+    margin: 2rem;
+}
+
+img#udemyCourseLogo
+{
+    position: relative;
+    float: right;
+    bottom: 75rem;
+    right: 2.8rem;
+}
+
+img#reactIcon
+{
+    position: relative;
+    float: left;
+    height: 10%;
+    width: 10%;
+    bottom: 34rem;
+    left: 5rem;
+}
+img#jsIcon
+{
+    position: relative;
+    float: left;
+    height: 8%;
+    width: 8%;
+    bottom: 15rem;
+    left: 3rem;
+}
+img#tsIcon
+{
+    position: relative;
+    float: left;
+    height: 8%;
+    width: 8%;
+    bottom: 15rem;
+    right: 25rem;
+}
+img#nodeIcon
+{
+    position: relative;
+    float: left;
+    height: 8%;
+    width: 8%;
+    bottom: 34rem;
+    left: 13rem;
+    
+}
+
+#educationBackToTop
+{
+    position: relative;
+    top: 197rem;
+    left: 27rem;
+}
+
+/* add image carousel */

@@ -1,0 +1,9 @@
+button.mainButton.btn.btn-outline-light
+{
+    position: "fixed";
+    bottom: "50px";
+    right: "500px";            
+    height: "5rem";
+    width: "5rem";
+
+}
