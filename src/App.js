@@ -7,6 +7,11 @@ import ResumeMain from './Resume'
 import TechAndFrameworks from './TechAndFrameworks'
 import Projects from './Projects'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Model } from './components/CRTLogo';
+import { OrbitControls } from "@react-three/drei";
+import {Canvas} from '@react-three/fiber'
+import { Suspense } from 'react';
+
 
 
 import {BrowserRouter, Route, Routes} from "react-router-dom"

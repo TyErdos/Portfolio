@@ -5,6 +5,7 @@ import './CSS/App.css'
 import './CSS/Projects.css'
 import BackToTopButton from "./components/backToTopButton";
 
+
 const Projects = () => {
     return (  
         <>
@@ -23,6 +24,8 @@ const Projects = () => {
             </div>
         </div>
 
+        <br/>
+
         {/* Psyche Support Card */}
         <div className="container" id="projectContainer">
             <div className="wrapper" id="projectWrapper">
@@ -32,7 +35,7 @@ const Projects = () => {
                 consectetur adipiscing elit.</p>
             </div>
             <div className="button-wrapper" id="projectBtnWrapper"> 
-            <a href="https://yelp-camp-bkk0.onrender.com/" target="_blank" rel="noreferrer"><button className="btn outline" id="projectBtn">Visit</button></a>
+            <a href="https://psyche.asu.edu/get-involved/capstone-projects/capstone-projects-copper-class/web-based-game-psyche-support/" target="_blank" rel="noreferrer"><button className="btn outline" id="projectBtn">Visit</button></a>
             </div>
         </div>
 
@@ -155,7 +158,6 @@ const Projects = () => {
             <a href="https://reddit-ish.onrender.com" target="_blank" rel="noreferrer"><button className="btn outline" id="projectBtn">Visit</button></a>
             </div>
         </div>
-
         
         <BackToTopButton/>
         </>

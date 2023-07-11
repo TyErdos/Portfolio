@@ -10,3 +10,25 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.navbar-custom
+{ 
+    height: 64px;
+    
+}
+
+.nav-item
+{
+    font-size: 18px;
+}
+
+.canvas
+{
+    position: relative;
+    margin-left: 0rem;
+}
+
+.allTabs
+{
+    margin-left: 0rem;
+}

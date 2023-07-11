@@ -1,20 +1,34 @@
-import React from "react";
+import React, {Suspense} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../CSS/Navbar.css"
 import "bootstrap/dist/js/bootstrap.min.js";
-
+import {Canvas} from '@react-three/fiber'
 import { LinkContainer} from "react-router-bootstrap"
+import { OrbitControls } from "@react-three/drei";
+import { Model } from '../components/CRTLogo';
+
 
 const NavbarMain = () => {
   return (
 
     <nav className="navbar sticky-top navbar-expand-xl navbar-custom">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">Replace with icon</a>
+      <LinkContainer to="/">
+        <a className="navbar-brand CrtModel" >
+          <Canvas className="canvas">
+            <OrbitControls enableZoom={false} autoRotate={true} autoRotateSpeed={1.2}/>
+            <ambientLight intensity={0.5}/>
+            <directionalLight position={[-2, 5, 2]} intensity={1}/>
+            <Suspense fallback={null}>
+              <Model/>
+            </Suspense>
+          </Canvas>
+          </a>
+          </LinkContainer>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse allTabs" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <LinkContainer to="/"><a className="nav-link " aria-current="page">Home</a></LinkContainer>
