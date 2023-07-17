@@ -10,6 +10,7 @@ const Projects = () => {
     return (  
         <>
         <h1 className="projectsHeading">All of My Current Projects</h1>
+        <h4 className="projectsHeading">Note: Projects may take a few moments to load as I use free hosting</h4>
 
         {/* CampQuest Card */}
         <div className="container" id="projectContainer">

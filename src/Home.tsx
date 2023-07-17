@@ -2,6 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './CSS/Home.css'
 import './CSS/App.css'
+import { LinkContainer} from "react-router-bootstrap"
 
 
 
@@ -15,7 +16,7 @@ const Home = () => {
                 <div className="thirdTitle"><div>Full Stack Developer</div></div>
                 <div className="fourthTitle"><div>Future Team Member</div></div>
             </section>
-            <a id="mainBtnLink" href=""><button className="mainButton btn btn-outline-light">View Projects</button></a>
+            <LinkContainer to="/Projects"><a id="mainBtnLink" ><button className="mainButton btn btn-outline-light">View Projects</button></a></LinkContainer>
         </div>
     );
 }

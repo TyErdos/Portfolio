@@ -6,6 +6,11 @@
     justify-content: center;
 }
 
+h4.projectsHeading
+{
+  color: rgba(255,255,255,0.98);;
+}
+
 
 /* EDIT WITH FLEXBOX */
 .container#projectContainer {
@@ -101,7 +106,7 @@
 
   .TvShow#projectBannerImg
   {
-    background-image: url(https://res.cloudinary.com/dl1g9gdvt/image/upload/v1681160549/YelpCamp/pem0idxmyzakbjjclz3q.png);
+    background-image: url(https://res.cloudinary.com/dl1g9gdvt/image/upload/v1689623411/Web%20Dev%20Portfolio/BestShows_dcbnhr.webp);
   }
   
   .PingPong#projectBannerImg

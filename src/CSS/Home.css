@@ -67,16 +67,16 @@ div.homePage{
   }
 
   .secondTitle div {
-    background-color:#040404;
+    /* background-color:#040404; */
     border-radius: 45px;
   }
   .thirdTitle div {
-    background-color:#040404;
+    /* background-color:#040404; */
     border-radius: 45px;
     margin-left: 4rem;
   }
   .fourthTitle div {
-    background-color:#040404;
+    /* background-color:#040404; */
     border-radius: 45px;
     margin-left: 4rem;
   }
@@ -116,6 +116,10 @@ div.homePage{
 	display: block;
 	position: relative;
 	border: 2px solid #3A5CA6;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-top: 20rem;
+  margin-left: 55rem;
 	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 .mainButton:hover {
@@ -143,16 +147,17 @@ div.homePage{
 }
 
 
-/* media queries */
+
+
+/* media queries 375px to 430px*/
 @media (min-width: 375px) and (max-width: 430px){
     .titleText
     {
         top: 1rem;
-        margin-left: 15%;
-        margin-right: 23%;
+        margin-left: 10rem;
+        margin-right: -5rem;
         margin-top: 3%;
-        right: -110px;
-        font-size: 1.8rem;
+        font-size: 25px;
         text-align: end;
     }
      img
@@ -161,8 +166,44 @@ div.homePage{
         height: 24rem;
         left: -50px;
         position: absolute;
-        
-        
     }
+    .mainButton{
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      position: relative;
+      border: 2px solid #3A5CA6;
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-top: 0rem;
+      margin-left: 0rem;
+      height: 50%;
+      width: 50%;
+      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    }
+    .mainButton:hover {
+      color: #000 !important;
+      background-color: transparent;
+      text-shadow: nthree;
+    }
+    .mainButton:hover:before {
+      left: 0%;
+      right: auto;
+      width: 100%;
+    }
+    .mainButton:before {
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      width: 0px;
+      z-index: -1;
+      content: '';
+      color: #000 !important;
+      background: #3A5CA6;
+      transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    }
+
     
 }

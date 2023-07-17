@@ -2,6 +2,7 @@ import React, {Suspense} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../CSS/Navbar.css"
 import "bootstrap/dist/js/bootstrap.min.js";
+import "../"
 import {Canvas} from '@react-three/fiber'
 import { LinkContainer} from "react-router-bootstrap"
 import { OrbitControls } from "@react-three/drei";
@@ -12,7 +13,7 @@ const NavbarMain = () => {
   return (
 
     <nav className="navbar sticky-top navbar-expand-xl navbar-custom">
-      <div className="container-fluid">
+     <div className="container-fluid">
       <LinkContainer to="/">
         <a className="navbar-brand CrtModel" >
           <Canvas className="canvas">
@@ -28,6 +29,8 @@ const NavbarMain = () => {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+
+
         <div className="collapse navbar-collapse allTabs" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
