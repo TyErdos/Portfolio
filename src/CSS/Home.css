@@ -32,16 +32,18 @@ div.homePage{
 }
 
 .titleText{
-    text-align: end;
+    /* text-align: center; */
     position: relative;
     top: -55rem;
-    right: 5rem;
+    margin-left: 93rem;
     font-family: 'Nunito', sans-serif;
     font-size: 3.4rem;
     padding-top: 0.2em;
     padding-right: 2rem;
     color: #fffcf2;
 }
+
+
 .animation {
     height:120px;
     overflow:hidden;
@@ -91,7 +93,7 @@ div.homePage{
     70% {margin-top: -5.62rem;}
     80% {margin-top: -5.62rem;}
     90% {margin-top: 0;}
-    100% {margin-top: 0;}
+    100% {margin-top: -0.01rem;}
   }
 
 
@@ -147,18 +149,89 @@ div.homePage{
 }
 
 
+/* media queries 1261px to 1890px*/
+@media (min-width: 1261px) and (max-width: 1890px)
+{
+
+  .titleText{
+    /* text-align: center; */
+    position: relative;
+    top: -55rem;
+    margin-left: 58rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.4rem;
+    padding-top: 0.2em;
+    padding-right: 2rem;
+    color: #fffcf2;
+}
+
+  .animation {
+    height:125px;
+    overflow:hidden;
+    margin-top: -54rem;
+    margin-left: 50rem;
+    font-family: 'Nunito', sans-serif;
+    
+    text-shadow: 0 0 3px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+    color: #fffcf2;
+    font-size: 2.8rem;
+
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:fit-content;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 13s infinite;
+  }
+
+  .secondTitle div {
+    /* background-color:#040404; */
+    border-radius: 45px;
+    /* margin-left: -6rem;
+    margin-bottom: 3rem;
+    padding: 4rem; */
+  }
+  .thirdTitle div {
+    /* background-color:#040404; */
+    border-radius: 45px;
+    /* margin-left: -2rem; */
+  }
+  .fourthTitle div {
+    /* background-color:#040404; */
+    border-radius: 45px;
+    /* margin-left: 0rem; */
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: -0.01rem;}
+  }
+}
 
 
 /* media queries 375px to 430px*/
-@media (min-width: 375px) and (max-width: 430px){
+@media (min-width: 375px) and (max-width: 412px){
+  
     .titleText
     {
         top: 1rem;
-        margin-left: 10rem;
-        margin-right: -5rem;
+        margin-left: 13.7rem;
         margin-top: 3%;
         font-size: 25px;
-        text-align: end;
+        
     }
      img
     {
@@ -167,17 +240,19 @@ div.homePage{
         left: -50px;
         position: absolute;
     }
+
+
     .mainButton{
       color: #fff;
       cursor: pointer;
       display: block;
-      position: relative;
+      position: flex;
       border: 2px solid #3A5CA6;
       margin-right: 0rem;
       margin-bottom: 0rem;
-      margin-top: 0rem;
-      margin-left: 0rem;
-      height: 50%;
+      margin-top: 20rem;
+      margin-left: 6.5rem;
+      height: 5rem;
       width: 50%;
       transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
     }
@@ -204,6 +279,42 @@ div.homePage{
       background: #3A5CA6;
       transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
     }
+
+
+    .animation {
+      height: 98px;
+      width: 100%;
+      overflow:hidden;
+      padding: 1.5rem;
+      margin-top: 0rem;
+      margin-left: 4.5rem;
+      font-family: 'Nunito', sans-serif;
+      
+      text-shadow: 0 0 3px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+      color: #fffcf2;
+      font-size: 21px;
+  
+    }
+    
+    .secondTitle div {
+      /* background-color:#040404; */
+      border-radius: 45px;
+      margin-left: 6rem;
+      
+    }
+    .thirdTitle div {
+      /* background-color:#040404; */
+      border-radius: 45px;
+      margin-bottom: 4rem;
+      padding: 100px;
+     
+    }
+    .fourthTitle div {
+      /* background-color:#040404; */
+      border-radius: 45px;
+      padding: 3rem;
+    }
+    
 
     
 }
